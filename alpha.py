@@ -1,8 +1,7 @@
 import re
 import os
 import pandas as pd
-# import matplotlib.pyplot as plt
-# import numpy as np
+
 stopwords = ['a', 'b', 'c', 'd']
 
 
@@ -64,7 +63,7 @@ class controller:
     def storage_all_year_content_words_freq(self):
         # pass
         df = pd.DataFrame(self.all_year_content_words_freq_dict)
-        df.to_csv('result/all_years_words_freq.csv', index=False, header=True)
+        df.to_csv('result/all_years_words_freq.csv', index=False, header=None)
 
     def return_paper_all_content(self, index):  # * get total content by index
         if index <= len(self.paper_list):
