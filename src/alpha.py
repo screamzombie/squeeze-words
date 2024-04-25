@@ -60,8 +60,12 @@ class controller:
     def return_all_years_words_number(self):
         return len(self.all_year_content_words_freq_dict)
 
+    def storage_words_by_year(self):
+        for exam in self.paper_list:
+            exam.analyse_all_content()
+            
+    
     def storage_all_year_content_words_freq(self):
-        # pass
         df = pd.DataFrame(self.all_year_content_words_freq_dict)
         df.to_csv('result/all_years_words_freq.csv', index=False, header=None)
 
