@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>base_Widget</class>
+ <widget class="QWidget" name="base_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>208</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="make_data_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成数据</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_data_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空数据</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="select_words_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择词本</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_review_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始复习</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="words_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>211</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
