@@ -96,6 +96,19 @@ class controller:
                 df.to_csv('../data/tempData/'+paper.year+'/'+section.section_name+'_words_freq.csv',
                           index=False, header=None)
 
+    def clear_all_temp_storage(self):
+        os.system("rm -rf ../data/tempData/*")
+
+    def default_run(self):
+        self.clear_all_temp_storage()
+        self.load_paper()
+        self.calculate_freq_dict()
+        self.storage_all_content_words_freq()
+        self.storage_words_freq_by_paper()
+        self.create_paper_directory()
+        self.storage_sections_words_freq()
+
+    
 
 if __name__ == '__main__':
     c = controller()
