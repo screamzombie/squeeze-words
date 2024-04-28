@@ -108,7 +108,6 @@ class controller:
         self.create_paper_directory()
         self.storage_sections_words_freq()
 
-    
 
 if __name__ == '__main__':
     c = controller()
