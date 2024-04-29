@@ -1,14 +1,25 @@
-English | [简体中文](./README.zh-CN.md)
-### word analyse
+💗榨💗干💗单💗词💗
+#### 描述
+本项目旨在帮助英语苦手们通过研究生入学考试。🪝8️⃣红宝书单词太多了,🐭🐭我啊真的要4️⃣了🤏
+于是🐭🐭突发奇想能不能只背考试出现过的呢?
+如果能够只背未来考试卷上出现的就更好了🤌
 
-#### Description
 
-This project aims to help students to learn English or through post-graduate entrance examinations.
+虽然市面上有很多单词书,和背单词的软件,但他们或多或少都有些令🐭🐭不满意的地方.比如一些使用了艾宾浩斯
+曲线的背单词软件,对于一些单词的复习次数实在是太多了,常常是单词软件刷了好久,一看卷子又懵逼了.
 
-So it's totally free software.But I hasn't completed it.2333333😂.
 
-#### Thanks
-This project using OCRmyPDF to get ocr version of rawdata.The author's github is   https://github.com/ocrmypdf/OCRmyPDF
+而很多所谓的重点单词书,也不能保证真的是重点单词质量不一鱼龙混杂.
+于是🐭🐭写了这么一个简单的代码,可以通过导入txt的方式对词频进行分析排序,同时可以自由安排时间和复习速度.
 
-This project using english-dictionary to translate.The author's github is 
-https://github.com/mahavivo/english-dictionary
+
+#### 感谢 OTZ
+本项目使用OCRmyPDF获取ocr版本的原始数据。作者的github是https://github.com/ocrmypdf/OCRmyPDF
+
+
+本项目使用的离线英语词典。作者的github是https://github.com/mahavivo/english-dictionary
+
+
+#### 搞点薯条
+
+![alt text](img/IMG_0734.PNG)
